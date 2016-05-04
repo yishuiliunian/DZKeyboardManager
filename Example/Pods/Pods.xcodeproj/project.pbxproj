@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C660EFCA273A737910EA1886BFA7F9 /* Pods-DZKeyboardManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9D7E1ABF5355EFE65F362955FB612E /* Pods-DZKeyboardManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */; };
+		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393D1A899C707F79A64672C46ED238F /* UIKit.framework */; };
+		333A792E35D7D211553ECA7E364A150F /* DZKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B38186FB7B4E7E88BA000BB200522D84 /* DZKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34E58F44C95481089002BF200FE1A1F8 /* DZKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D74AB8F3C6D524D2C9A05768645CA2 /* DZKeyboardManager-dummy.m */; };
+		35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */; };
+		3E3E96B0047FDCEF217F9E815E9DDA9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */; };
+		5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */; };
+		723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */; };
+		7B9243A8ABBEBCF0A18E538A43BAAEA8 /* Pods-DZKeyboardManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5026DBC6D9401FEBA2DF3F108F6DA1B /* Pods-DZKeyboardManager_Tests-dummy.m */; };
+		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FAB98BAA93B3B2DC795A7F94796C2D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		9EAB524DA76C0C7161C4DB33C34BCBB4 /* Pods-DZKeyboardManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072BCFA53601B55C93A2C6C022647D19 /* Pods-DZKeyboardManager_Example-dummy.m */; };
+		AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */; };
+		AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */; };
+		B1B6297577FC500B5606D231EFABCBE7 /* DZKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 537F8C957EB1D85DA637840C2093D57C /* DZKeyboardManager.bundle */; };
+		C695A9DD49AE3F5A85D24903C010483F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 502E694D3E149C0174CE6C78A659D2C8 /* ReplaceMe.m */; };
+		CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */; };
+		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */; };
+		D903FFB6B0BF31EE294DF128A834C06D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		DDBFC1E73312D1BCF0F84E9B21615387 /* Pods-DZKeyboardManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA09E5981A73F9AE502C580786EAB2A /* Pods-DZKeyboardManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DAD7AA92FFAF3BFC22A4B2189981342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E265493F453267446AF968C293FAA212;
+			remoteInfo = DZKeyboardManager;
+		};
+		76E04532A74372CAC6D709D427C9436F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5C935B614DD08342117AD0B06959CB9;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		BCA5A02DFEDCDDE294D4096072F2E7E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E265493F453267446AF968C293FAA212;
+			remoteInfo = DZKeyboardManager;
+		};
+		E7C114F9BEFDCDDE810650BC937B376D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3483B2771F40FAF5DA52E911221757;
+			remoteInfo = "DZKeyboardManager-DZKeyboardManager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		05D74AB8F3C6D524D2C9A05768645CA2 /* DZKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		072BCFA53601B55C93A2C6C022647D19 /* Pods-DZKeyboardManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZKeyboardManager_Example-dummy.m"; sourceTree = "<group>"; };
+		091B8C6E051E21A988E3B3E9BC243041 /* Pods-DZKeyboardManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZKeyboardManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		0C253231D120EBCD8C51C5874BD447B6 /* DZKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		0D3A3EA4F9348256E971F29EBD1A2123 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		0F01AA0F45B0B5CC535F9884FF44262A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		1A9D7E1ABF5355EFE65F362955FB612E /* Pods-DZKeyboardManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZKeyboardManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2393D1A899C707F79A64672C46ED238F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		2FA09E5981A73F9AE502C580786EAB2A /* Pods-DZKeyboardManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZKeyboardManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		3347A9B929B9591A79C286C2C0EE1F1B /* DZKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZKeyboardManager.modulemap; sourceTree = "<group>"; };
+		37C46868D4584472065BB5F7D536250F /* Pods-DZKeyboardManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZKeyboardManager_Example-resources.sh"; sourceTree = "<group>"; };
+		3CDD9962E7C6687DEEC40FC2F5F6DC17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41CC5D2FE36EA68E950B7DC1C687028B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		4D1F61A5454CA69DC04B9102508DCC29 /* Pods-DZKeyboardManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZKeyboardManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F426D2476ED12A914A8235A2AD3D0C2 /* DZKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		502E694D3E149C0174CE6C78A659D2C8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		5364BAEBCB6057F539AF4FD1CD0CAC7F /* Pods-DZKeyboardManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DZKeyboardManager_Example.modulemap"; sourceTree = "<group>"; };
+		537F8C957EB1D85DA637840C2093D57C /* DZKeyboardManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZKeyboardManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		56513B165761A7A6FDE485816F6DC403 /* Pods_DZKeyboardManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZKeyboardManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		64C0569E6B66BCE60F5A2F0F0DDB6A4F /* Pods-DZKeyboardManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZKeyboardManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		65B8B260DC008AFAE23E7C438B5C77A4 /* Pods-DZKeyboardManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZKeyboardManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		690B76A1388637D6F27AFF56D38CA3C7 /* DZKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		75CF3E26CEBB6C8E56F4B4245C24667B /* Pods-DZKeyboardManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZKeyboardManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		782DEC873AD44288D38C55AD811A9577 /* Pods_DZKeyboardManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZKeyboardManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9ED8A35423E5DB8D457E884F1AC984E4 /* Pods-DZKeyboardManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZKeyboardManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A19A14917A682AE1A01BA1FE22A06963 /* Pods-DZKeyboardManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZKeyboardManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		B38186FB7B4E7E88BA000BB200522D84 /* DZKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		B3D08C65AB18ACF0D05C7C79DB5737E4 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		B5026DBC6D9401FEBA2DF3F108F6DA1B /* Pods-DZKeyboardManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZKeyboardManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		B61C91D2641964D1B30F40CC658E59E1 /* Pods-DZKeyboardManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZKeyboardManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8A1FBA09284480AF2273218600BF714 /* Pods-DZKeyboardManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZKeyboardManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFD354064566F89695163752FDC07714 /* Pods-DZKeyboardManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZKeyboardManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		C765F9B53549D0AD2EDEF0C00D476F1C /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		E4D9EB3D20D13503FA64B32E6BD4DBA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6CBADDCE1FCF00C87D250E17FA382C3 /* Pods-DZKeyboardManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZKeyboardManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EB782155B854E2912F5BBD78ACC02D57 /* Pods-DZKeyboardManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DZKeyboardManager_Tests.modulemap"; sourceTree = "<group>"; };
+		FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47AB455DEC7F4DC863D207974ED63899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3E96B0047FDCEF217F9E815E9DDA9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCA8F186762E61D42A8295815F3257E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D243ADD1B368208C412B74B07C54330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAB98BAA93B3B2DC795A7F94796C2D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96317938B7BBB0DE5B6C6F27B4A6333F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */,
+				CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */,
+				28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */,
+				AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3699BEB832AB2A5C2C4F41249374FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D903FFB6B0BF31EE294DF128A834C06D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1468D6415B6405F797063C7E307A573C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				597D02F347F410B2438FE297284E3AF8 /* DZKeyboardManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3FB7D37E46A5379C926728A416D78E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		329CC004AB83B695DB001E6BBD6F7707 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		49AFB68D74DBC7904F3AE60D33A002FE /* Pods-DZKeyboardManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				41CC5D2FE36EA68E950B7DC1C687028B /* Info.plist */,
+				5364BAEBCB6057F539AF4FD1CD0CAC7F /* Pods-DZKeyboardManager_Example.modulemap */,
+				9ED8A35423E5DB8D457E884F1AC984E4 /* Pods-DZKeyboardManager_Example-acknowledgements.markdown */,
+				4D1F61A5454CA69DC04B9102508DCC29 /* Pods-DZKeyboardManager_Example-acknowledgements.plist */,
+				072BCFA53601B55C93A2C6C022647D19 /* Pods-DZKeyboardManager_Example-dummy.m */,
+				65B8B260DC008AFAE23E7C438B5C77A4 /* Pods-DZKeyboardManager_Example-frameworks.sh */,
+				37C46868D4584472065BB5F7D536250F /* Pods-DZKeyboardManager_Example-resources.sh */,
+				2FA09E5981A73F9AE502C580786EAB2A /* Pods-DZKeyboardManager_Example-umbrella.h */,
+				B8A1FBA09284480AF2273218600BF714 /* Pods-DZKeyboardManager_Example.debug.xcconfig */,
+				A19A14917A682AE1A01BA1FE22A06963 /* Pods-DZKeyboardManager_Example.release.xcconfig */,
+			);
+			name = "Pods-DZKeyboardManager_Example";
+			path = "Target Support Files/Pods-DZKeyboardManager_Example";
+			sourceTree = "<group>";
+		};
+		5060B33D8CFD3C2E88D6F156E54E3265 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */,
+				2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */,
+				12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */,
+				E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */,
+				4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */,
+				BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */,
+				A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */,
+				5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */,
+				7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */,
+				73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */,
+				0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */,
+				5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		597D02F347F410B2438FE297284E3AF8 /* DZKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				DEC20676A27A03C29B652EB215C3EFE7 /* Pod */,
+				78BDBD590D761AA13BD9DF736B12FF1C /* Support Files */,
+			);
+			name = DZKeyboardManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		78BDBD590D761AA13BD9DF736B12FF1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3347A9B929B9591A79C286C2C0EE1F1B /* DZKeyboardManager.modulemap */,
+				4F426D2476ED12A914A8235A2AD3D0C2 /* DZKeyboardManager.xcconfig */,
+				05D74AB8F3C6D524D2C9A05768645CA2 /* DZKeyboardManager-dummy.m */,
+				0C253231D120EBCD8C51C5874BD447B6 /* DZKeyboardManager-prefix.pch */,
+				B38186FB7B4E7E88BA000BB200522D84 /* DZKeyboardManager-umbrella.h */,
+				0D3A3EA4F9348256E971F29EBD1A2123 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DZKeyboardManager";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				1468D6415B6405F797063C7E307A573C /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				7DBC63C61D6095CEB10394B0604A10AE /* Products */,
+				CE6C201D2B1D11AAFA36F8AB3F06F9D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DBC63C61D6095CEB10394B0604A10AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				537F8C957EB1D85DA637840C2093D57C /* DZKeyboardManager.bundle */,
+				690B76A1388637D6F27AFF56D38CA3C7 /* DZKeyboardManager.framework */,
+				C765F9B53549D0AD2EDEF0C00D476F1C /* FBSnapshotTestCase.framework */,
+				782DEC873AD44288D38C55AD811A9577 /* Pods_DZKeyboardManager_Example.framework */,
+				56513B165761A7A6FDE485816F6DC403 /* Pods_DZKeyboardManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8004835372142699707E98D241D8C23D /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				5060B33D8CFD3C2E88D6F156E54E3265 /* Core */,
+				A78CE87681B42105A65DA44E0F79FC82 /* Support Files */,
+				329CC004AB83B695DB001E6BBD6F7707 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		A78CE87681B42105A65DA44E0F79FC82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F01AA0F45B0B5CC535F9884FF44262A /* FBSnapshotTestCase.modulemap */,
+				42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */,
+				DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */,
+				B3D08C65AB18ACF0D05C7C79DB5737E4 /* FBSnapshotTestCase-prefix.pch */,
+				3CDD9962E7C6687DEEC40FC2F5F6DC17 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		C7883D93D0F0B8F16DA321F74A627401 /* Pods-DZKeyboardManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4D9EB3D20D13503FA64B32E6BD4DBA5 /* Info.plist */,
+				EB782155B854E2912F5BBD78ACC02D57 /* Pods-DZKeyboardManager_Tests.modulemap */,
+				BFD354064566F89695163752FDC07714 /* Pods-DZKeyboardManager_Tests-acknowledgements.markdown */,
+				75CF3E26CEBB6C8E56F4B4245C24667B /* Pods-DZKeyboardManager_Tests-acknowledgements.plist */,
+				B5026DBC6D9401FEBA2DF3F108F6DA1B /* Pods-DZKeyboardManager_Tests-dummy.m */,
+				E6CBADDCE1FCF00C87D250E17FA382C3 /* Pods-DZKeyboardManager_Tests-frameworks.sh */,
+				091B8C6E051E21A988E3B3E9BC243041 /* Pods-DZKeyboardManager_Tests-resources.sh */,
+				1A9D7E1ABF5355EFE65F362955FB612E /* Pods-DZKeyboardManager_Tests-umbrella.h */,
+				64C0569E6B66BCE60F5A2F0F0DDB6A4F /* Pods-DZKeyboardManager_Tests.debug.xcconfig */,
+				B61C91D2641964D1B30F40CC658E59E1 /* Pods-DZKeyboardManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-DZKeyboardManager_Tests";
+			path = "Target Support Files/Pods-DZKeyboardManager_Tests";
+			sourceTree = "<group>";
+		};
+		CD3FB7D37E46A5379C926728A416D78E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */,
+				0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */,
+				2393D1A899C707F79A64672C46ED238F /* UIKit.framework */,
+				853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE6C201D2B1D11AAFA36F8AB3F06F9D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49AFB68D74DBC7904F3AE60D33A002FE /* Pods-DZKeyboardManager_Example */,
+				C7883D93D0F0B8F16DA321F74A627401 /* Pods-DZKeyboardManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DEC20676A27A03C29B652EB215C3EFE7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E8C0F7AB9EED3E7F46355EB6C35D217E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E8C0F7AB9EED3E7F46355EB6C35D217E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				502E694D3E149C0174CE6C78A659D2C8 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8004835372142699707E98D241D8C23D /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		013BBCE009F076CECDD21ED4BC2227A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333A792E35D7D211553ECA7E364A150F /* DZKeyboardManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0C8A588A58118855A6BC546C136C58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C660EFCA273A737910EA1886BFA7F9 /* Pods-DZKeyboardManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F84B62689809DA644A687BE46073A1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBFC1E73312D1BCF0F84E9B21615387 /* Pods-DZKeyboardManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */,
+				41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */,
+				7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */,
+				1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */,
+				52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */,
+				723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68A5C8D09872238138CFBC4B1EA8B4F1 /* Pods-DZKeyboardManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4519E32BE0B6E519AC481AE9A30426 /* Build configuration list for PBXNativeTarget "Pods-DZKeyboardManager_Tests" */;
+			buildPhases = (
+				D6AD55795AC8EA9AFE708B12C7DD616B /* Sources */,
+				6D243ADD1B368208C412B74B07C54330 /* Frameworks */,
+				4F0C8A588A58118855A6BC546C136C58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DB10D129C9C51D4A031BD14F0B223D /* PBXTargetDependency */,
+				FEBC2C2AA2079B3F4FF9F5C3BC216607 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZKeyboardManager_Tests";
+			productName = "Pods-DZKeyboardManager_Tests";
+			productReference = 56513B165761A7A6FDE485816F6DC403 /* Pods_DZKeyboardManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EDC9486793060341F389ED396820195 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				2CC3E7452D970C2994AA3AB9C9EBB620 /* Sources */,
+				96317938B7BBB0DE5B6C6F27B4A6333F /* Frameworks */,
+				6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = C765F9B53549D0AD2EDEF0C00D476F1C /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A82E7D0631C3DB6C7FF21FF047EEEB92 /* Pods-DZKeyboardManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549F245582A8021FE42392C5AAF28CA5 /* Build configuration list for PBXNativeTarget "Pods-DZKeyboardManager_Example" */;
+			buildPhases = (
+				B202025137E116862C67B3CA787F8345 /* Sources */,
+				9B3699BEB832AB2A5C2C4F41249374FA /* Frameworks */,
+				5F84B62689809DA644A687BE46073A1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21B960068D60065B1847D0231E43752D /* PBXTargetDependency */,
+			);
+			name = "Pods-DZKeyboardManager_Example";
+			productName = "Pods-DZKeyboardManager_Example";
+			productReference = 782DEC873AD44288D38C55AD811A9577 /* Pods_DZKeyboardManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD3483B2771F40FAF5DA52E911221757 /* DZKeyboardManager-DZKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36CCDE0938E2E4FFE8479A3392E248A /* Build configuration list for PBXNativeTarget "DZKeyboardManager-DZKeyboardManager" */;
+			buildPhases = (
+				C7200095F72D1F13E8BEBA260D61A228 /* Sources */,
+				5CCA8F186762E61D42A8295815F3257E /* Frameworks */,
+				9121D62F53B1DB5ECA2731E2AD7E8075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZKeyboardManager-DZKeyboardManager";
+			productName = "DZKeyboardManager-DZKeyboardManager";
+			productReference = 537F8C957EB1D85DA637840C2093D57C /* DZKeyboardManager.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E265493F453267446AF968C293FAA212 /* DZKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A08A7E881E4E688035F76553C32327E /* Build configuration list for PBXNativeTarget "DZKeyboardManager" */;
+			buildPhases = (
+				90742C2B9C5D52F8077B6CC8D0805CC1 /* Sources */,
+				47AB455DEC7F4DC863D207974ED63899 /* Frameworks */,
+				77F53C9DA98D63C072BF344F93B5ECEF /* Resources */,
+				013BBCE009F076CECDD21ED4BC2227A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C245EB97CE28F6BEA752615366D97B0 /* PBXTargetDependency */,
+			);
+			name = DZKeyboardManager;
+			productName = DZKeyboardManager;
+			productReference = 690B76A1388637D6F27AFF56D38CA3C7 /* DZKeyboardManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7DBC63C61D6095CEB10394B0604A10AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E265493F453267446AF968C293FAA212 /* DZKeyboardManager */,
+				CD3483B2771F40FAF5DA52E911221757 /* DZKeyboardManager-DZKeyboardManager */,
+				A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */,
+				A82E7D0631C3DB6C7FF21FF047EEEB92 /* Pods-DZKeyboardManager_Example */,
+				68A5C8D09872238138CFBC4B1EA8B4F1 /* Pods-DZKeyboardManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F53C9DA98D63C072BF344F93B5ECEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B6297577FC500B5606D231EFABCBE7 /* DZKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9121D62F53B1DB5ECA2731E2AD7E8075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC3E7452D970C2994AA3AB9C9EBB620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */,
+				35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */,
+				5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */,
+				AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */,
+				52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */,
+				788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */,
+				163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */,
+				EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90742C2B9C5D52F8077B6CC8D0805CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E58F44C95481089002BF200FE1A1F8 /* DZKeyboardManager-dummy.m in Sources */,
+				C695A9DD49AE3F5A85D24903C010483F /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B202025137E116862C67B3CA787F8345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAB524DA76C0C7161C4DB33C34BCBB4 /* Pods-DZKeyboardManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7200095F72D1F13E8BEBA260D61A228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AD55795AC8EA9AFE708B12C7DD616B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9243A8ABBEBCF0A18E538A43BAAEA8 /* Pods-DZKeyboardManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21B960068D60065B1847D0231E43752D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZKeyboardManager;
+			target = E265493F453267446AF968C293FAA212 /* DZKeyboardManager */;
+			targetProxy = 3DAD7AA92FFAF3BFC22A4B2189981342 /* PBXContainerItemProxy */;
+		};
+		9C245EB97CE28F6BEA752615366D97B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DZKeyboardManager-DZKeyboardManager";
+			target = CD3483B2771F40FAF5DA52E911221757 /* DZKeyboardManager-DZKeyboardManager */;
+			targetProxy = E7C114F9BEFDCDDE810650BC937B376D /* PBXContainerItemProxy */;
+		};
+		B5DB10D129C9C51D4A031BD14F0B223D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZKeyboardManager;
+			target = E265493F453267446AF968C293FAA212 /* DZKeyboardManager */;
+			targetProxy = BCA5A02DFEDCDDE294D4096072F2E7E9 /* PBXContainerItemProxy */;
+		};
+		FEBC2C2AA2079B3F4FF9F5C3BC216607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */;
+			targetProxy = 76E04532A74372CAC6D709D427C9436F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		361A9C1BD2E937B500A2A40D8E294BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F426D2476ED12A914A8235A2AD3D0C2 /* DZKeyboardManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZKeyboardManager/DZKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZKeyboardManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZKeyboardManager/DZKeyboardManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		744434CE9B191C0D3BD1476423B3F268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C0569E6B66BCE60F5A2F0F0DDB6A4F /* Pods-DZKeyboardManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZKeyboardManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZKeyboardManager_Tests/Pods-DZKeyboardManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DZKeyboardManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		820B644B73C8915DE372C95370B60E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F426D2476ED12A914A8235A2AD3D0C2 /* DZKeyboardManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZKeyboardManager/DZKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZKeyboardManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZKeyboardManager/DZKeyboardManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86833E157B280B5A111105C015CF1BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		924FB2F704EB00108BA157E4E5E6064B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61C91D2641964D1B30F40CC658E59E1 /* Pods-DZKeyboardManager_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZKeyboardManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZKeyboardManager_Tests/Pods-DZKeyboardManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DZKeyboardManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		983BDB2E4C88BE3ACC09F1067A77B427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A1FBA09284480AF2273218600BF714 /* Pods-DZKeyboardManager_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZKeyboardManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZKeyboardManager_Example/Pods-DZKeyboardManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DZKeyboardManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B90951C7A900AF180EF7790FF9AF4334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F426D2476ED12A914A8235A2AD3D0C2 /* DZKeyboardManager.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BAF5175FA166657BEB96860F2316202A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE8B9AAB369E056AAF5C2458403830F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19A14917A682AE1A01BA1FE22A06963 /* Pods-DZKeyboardManager_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DZKeyboardManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DZKeyboardManager_Example/Pods-DZKeyboardManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DZKeyboardManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F61E630A9D14FB813498228564FC19C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F426D2476ED12A914A8235A2AD3D0C2 /* DZKeyboardManager.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EDC9486793060341F389ED396820195 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF5175FA166657BEB96860F2316202A /* Debug */,
+				86833E157B280B5A111105C015CF1BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549F245582A8021FE42392C5AAF28CA5 /* Build configuration list for PBXNativeTarget "Pods-DZKeyboardManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983BDB2E4C88BE3ACC09F1067A77B427 /* Debug */,
+				BE8B9AAB369E056AAF5C2458403830F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A08A7E881E4E688035F76553C32327E /* Build configuration list for PBXNativeTarget "DZKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820B644B73C8915DE372C95370B60E0D /* Debug */,
+				361A9C1BD2E937B500A2A40D8E294BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4519E32BE0B6E519AC481AE9A30426 /* Build configuration list for PBXNativeTarget "Pods-DZKeyboardManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744434CE9B191C0D3BD1476423B3F268 /* Debug */,
+				924FB2F704EB00108BA157E4E5E6064B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36CCDE0938E2E4FFE8479A3392E248A /* Build configuration list for PBXNativeTarget "DZKeyboardManager-DZKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61E630A9D14FB813498228564FC19C4 /* Debug */,
+				B90951C7A900AF180EF7790FF9AF4334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

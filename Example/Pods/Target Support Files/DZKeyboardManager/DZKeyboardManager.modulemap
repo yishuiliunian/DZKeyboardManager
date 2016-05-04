@@ -1,0 +1,6 @@
+framework module DZKeyboardManager {
+  umbrella header "DZKeyboardManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

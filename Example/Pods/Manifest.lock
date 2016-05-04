@@ -1,0 +1,21 @@
+PODS:
+  - DZKeyboardManager (0.1.0)
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DZKeyboardManager (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DZKeyboardManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZKeyboardManager: 29adbfd9bd77983bd629609f373e82e42694bce8
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+
+COCOAPODS: 0.39.0
