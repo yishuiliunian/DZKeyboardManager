@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-OBJC_ENUM(NSUInteger, DZKeyboardTransitionType) {
+typedef NS_ENUM(NSUInteger, DZKeyboardTransitionType) {
     DZKeyboardTransitionShow,
     DZKeyboardTransitionHidden
 };
@@ -19,7 +19,7 @@ typedef struct  {
     CGRect endFrame;
     UIViewAnimationCurve animationCurve;
     NSTimeInterval animationDuration;
-    enum DZKeyboardTransitionType type;
+    DZKeyboardTransitionType type;
 } DZKeyboardTransition ;
 
 
